@@ -6,8 +6,21 @@ const ITEMS=[
     brandType:"アウトドア",
     category:"トップス",
     gender:"メンズ",
-    mekikiLevel:4,
     size:"XXL",
+
+    price:{
+      amount:9790,
+      store:"セカンドストリート",
+      checked:"2026-09"
+    },
+
+    scores:{
+      material:4,
+      durability:5,
+      craft:4,
+      rarity:2
+    },
+
     image:"https://placehold.co/600x450/e8d0d6/333333?text=THE+NORTH+FACE",
     detailUrl:"detail/north/north-pink-1.html",
     condition:"USED",
@@ -22,6 +35,7 @@ const ITEMS=[
     craftPoint:"袖口のパイピング補強やカンガルーポケットなど、実用性を考えた作り。",
     keywords:["ノースフェイス","THE NORTH FACE","TNF","フリース","ピンク","ポリエステル","アウトドア"]
   },
+
   {
     id:"pendleton-board-shirt",
     title:"70s PENDLETON ボードシャツ",
@@ -29,8 +43,21 @@ const ITEMS=[
     brandType:"ヴィンテージ",
     category:"トップス",
     gender:"メンズ",
-    mekikiLevel:5,
     size:"M",
+
+    price:{
+      amount:null,
+      store:"",
+      checked:""
+    },
+
+    scores:{
+      material:5,
+      durability:4,
+      craft:5,
+      rarity:5
+    },
+
     image:"https://placehold.co/600x450/2b2d42/ffffff?text=PENDLETON",
     detailUrl:"#",
     condition:"VINTAGE",
@@ -45,6 +72,7 @@ const ITEMS=[
     craftPoint:"チェック柄が縫い目で自然につながる柄合わせは、縫製の丁寧さを見るポイント。",
     keywords:["PENDLETON","ペンドルトン","ウール","USA","アメリカ製","70s","ヴィンテージ"]
   },
+
   {
     id:"cashmere-knit-1",
     title:"カシミヤ混 クルーネックニット",
@@ -52,8 +80,21 @@ const ITEMS=[
     brandType:"ファクトリーブランド",
     category:"ニット",
     gender:"レディース",
-    mekikiLevel:3,
     size:"L",
+
+    price:{
+      amount:null,
+      store:"",
+      checked:""
+    },
+
+    scores:{
+      material:4,
+      durability:2,
+      craft:4,
+      rarity:2
+    },
+
     image:"https://placehold.co/600x450/e7e2dc/333333?text=CASHMERE+KNIT",
     detailUrl:"#",
     condition:"USED",
