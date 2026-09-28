@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="素材・耐久性・縫製・ディテールから本当に良い服を見極めるための服と素材の目利き図鑑。">
+  <title>服と素材の目利き図鑑 | Material & Craft Archive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="logo"><a href="index.html">服と素材の目利き図鑑<span>Material & Craft Archive</span></a></h1>
+      <div class="search-box">
+        <label class="visually-hidden" for="searchInput">アイテムを検索</label>
+        <input type="search" id="searchInput" placeholder="ブランド・素材・特徴で検索..." autocomplete="off">
+      </div>
+    </div>
+  </header>
+
+  <nav class="global-nav" aria-label="メインナビゲーション">
+    <div class="global-nav-inner">
+      <a href="index.html" class="active">アイテム</a>
+      <a href="about.html">当サイトの目的</a>
+      <a href="dictionary.html">素材・用語辞典</a>
+    </div>
+  </nav>
+
+  <main class="main-container">
+    <section class="hero-section">
+      <p class="hero-label">MATERIAL / CRAFT / DURABILITY</p>
+      <h2>ブランド名ではなく、<br>「素材」と「作り」から服を見る。</h2>
+      <p>素材構成、耐久性、縮みリスク、縫製やディテールを記録し、長く着られる良い服を見極めるための個人図鑑です。</p>
+    </section>
+
+    <section class="filter-panel">
+      <div class="filter-header">
+        <div>
+          <p class="section-label">FILTER</p>
+          <h2>アイテムを探す</h2>
+        </div>
+        <button type="button" id="resetFilters" class="reset-btn">条件をリセット</button>
+      </div>
+
+      <div class="filter-grid">
+        <div class="filter-group">
+          <label for="categoryFilter">アイテム</label>
+          <select id="categoryFilter"><option value="all">すべて</option></select>
+        </div>
+        <div class="filter-group">
+          <label for="brandTypeFilter">ブランド種別</label>
+          <select id="brandTypeFilter"><option value="all">すべて</option></select>
+        </div>
+        <div class="filter-group">
+          <label for="careFilter">お手入れ</label>
+          <select id="careFilter"><option value="all">すべて</option></select>
+        </div>
+        <div class="filter-group">
+          <label for="countryFilter">生産国</label>
+          <select id="countryFilter"><option value="all">すべて</option></select>
+        </div>
+      </div>
+
+      <div class="material-filter">
+        <span class="filter-title">素材から探す</span>
+        <div id="materialButtons" class="material-buttons"></div>
+      </div>
+    </section>
+
+    <section class="result-area">
+      <div class="result-header">
+        <div>
+          <p class="section-label">ARCHIVE</p>
+          <h2>服の記録</h2>
+        </div>
+        <p id="resultCount">0件</p>
+      </div>
+
+      <div class="grid-container" id="itemGrid"></div>
+
+      <div id="emptyMessage" class="empty-message" hidden>
+        <h2>該当するアイテムがありません</h2>
+        <p>検索ワードや絞り込み条件を変更してみてください。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>服と素材の目利き図鑑</p>
+      <span>Material & Craft Archive</span>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
