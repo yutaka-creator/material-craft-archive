@@ -44,17 +44,42 @@
 
       <div class="filter-grid">
         <div class="filter-group">
+          <label for="genderFilter">メンズ / レディース</label>
+          <select id="genderFilter">
+            <option value="all">すべて</option>
+            <option value="メンズ">メンズ</option>
+            <option value="レディース">レディース</option>
+            <option value="ユニセックス">ユニセックス</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="mekikiFilter">目利き度</label>
+          <select id="mekikiFilter">
+            <option value="all">すべて</option>
+            <option value="5">★★★★★</option>
+            <option value="4">★★★★☆</option>
+            <option value="3">★★★☆☆</option>
+            <option value="2">★★☆☆☆</option>
+            <option value="1">★☆☆☆☆</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
           <label for="categoryFilter">アイテム</label>
           <select id="categoryFilter"><option value="all">すべて</option></select>
         </div>
+
         <div class="filter-group">
           <label for="brandTypeFilter">ブランド種別</label>
           <select id="brandTypeFilter"><option value="all">すべて</option></select>
         </div>
+
         <div class="filter-group">
           <label for="careFilter">お手入れ</label>
           <select id="careFilter"><option value="all">すべて</option></select>
         </div>
+
         <div class="filter-group">
           <label for="countryFilter">生産国</label>
           <select id="countryFilter"><option value="all">すべて</option></select>
