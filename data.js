@@ -150,5 +150,30 @@ const ITEMS=[
       "リバーシブル","刺繍","ラグラン","別珍","ベルベット","サテン","中国製",
       "メンズ","ユニセックス","ヴィンテージ風","セカンドストリート"
     ]
+  },
+
+  {
+    id:"orient-express-sukajan",
+    title:"Orient Express ハワイ刺繍 リバーシブルスカジャン",
+    brand:"Orient Express",
+    brandType:"スーベニア / カジュアル系",
+    category:"アウター",
+    gender:"メンズ",
+    size:"M（身幅約58cm / 着丈約65cm / ゆき約89cm）",
+    price:{amount:16390,store:"セカンドストリート",checked:"2026-09"},
+    scores:{material:4,durability:3,craft:4,rarity:3},
+    image:"img/orient-express-sukajan.jpg",
+    detailUrl:"detail/orient-express/orient-express-sukajan.html",
+    condition:"USED / 中古C",
+    material:["コットン100%","別珍","ベルベット調","サテン調"],
+    care:["ドライクリーニング","水洗い不可","洗濯機不可","乾燥機NG","縮み注意"],
+    details:["刺繍","リバーシブル","ラグランスリーブ","リブ","虎刺繍","ハワイ刺繍"],
+    country:"中国製",
+    era:"不明",
+    materialPoint:"綿100%の別珍・ベルベット調生地による光沢と陰影が特徴。反対面は光沢のあるサテン調で、表裏で大きく印象が変わる。",
+    durability:"起毛面は毛並みの潰れや擦れによるテカリ・色ムラ、サテン調面は引っ掛けや糸つれ、刺繍糸のほつれに注意。総合耐久性は3/5。",
+    shrinkRisk:"コットン100%で水洗い不可。品質表示はDRY CLEAN ONLYのため、水洗いによる縮みや風合い変化を避けたい。",
+    craftPoint:"胸・背中・袖まで広範囲に刺繍が入り、リバーシブル両面を主役として使える装飾量の多いスカジャン。",
+    keywords:["Orient Express","オリエントエクスプレス","BCO LIMITED EDITION","SINCE 1989","スカジャン","スーベニアジャケット","虎","タイガー","ハワイ","Aloha Hawaii","リバーシブル","刺繍","ラグラン","別珍","ベルベット","サテン","中国製","メンズ","ユニセックス","ヴィンテージ風","セカンドストリート"]
   }
 ];
