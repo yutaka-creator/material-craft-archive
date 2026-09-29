@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="服と素材の目利き図鑑の着せ替えモード。オリジナル衣類素材でコーデを組み合わせて保存できます。">
+  <title>着せ替えモード | 服と素材の目利き図鑑</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dressup.css">
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <h1 class="logo"><a href="index.html">服と素材の目利き図鑑<span>Material & Craft Archive</span></a></h1>
+  </div>
+</header>
+
+<nav class="global-nav" aria-label="メインナビゲーション">
+  <div class="global-nav-inner">
+    <a href="index.html">アイテム</a>
+    <a href="dressup.html" class="active">着せ替えモード</a>
+    <a href="about.html">当サイトの目的</a>
+    <a href="dictionary.html">素材・用語辞典</a>
+  </div>
+</nav>
+
+<main class="main-container">
+  <section class="dressup-heading">
+    <p class="section-label">DRESS UP LAB</p>
+    <h2>好きな服を重ねて、<br>自分だけのコーデを作る。</h2>
+    <p>トップス・パンツ・靴・アウター・帽子・バッグを組み合わせられます。着せ替え素材はブランドロゴを使わないオリジナル表現です。</p>
+  </section>
+
+  <section class="dressup-layout">
+    <div class="dressup-preview-panel">
+      <div class="dressup-stage" aria-label="着せ替えプレビュー">
+        <img src="img/dressup/base/body.svg" class="dress-layer layer-body" alt="">
+        <img id="layer-pants" class="dress-layer layer-pants" alt="">
+        <img id="layer-tops" class="dress-layer layer-tops" alt="">
+        <img id="layer-outer" class="dress-layer layer-outer" alt="">
+        <img id="layer-shoes" class="dress-layer layer-shoes" alt="">
+        <img id="layer-bag" class="dress-layer layer-bag" alt="">
+        <img id="layer-hat" class="dress-layer layer-hat" alt="">
+      </div>
+
+      <div class="preview-actions">
+        <button type="button" id="resetOutfit" class="reset-btn">コーデをリセット</button>
+      </div>
+
+      <div class="selected-panel">
+        <h3>選択中</h3>
+        <div id="selectedItems" class="selected-list"></div>
+      </div>
+
+      <div class="save-panel">
+        <label for="outfitName">コーデ名</label>
+        <div class="save-row">
+          <input id="outfitName" type="text" maxlength="30" placeholder="例：秋の古着コーデ">
+          <button type="button" id="saveOutfit">保存</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dressup-picker-panel">
+      <div id="categoryTabs" class="category-tabs"></div>
+      <div id="dressupItems" class="dressup-items"></div>
+
+      <section class="saved-section">
+        <div class="saved-header">
+          <h3>保存したコーデ</h3>
+          <span>この端末のブラウザに保存</span>
+        </div>
+        <div id="savedOutfits" class="saved-outfits"></div>
+      </section>
+    </div>
+  </section>
+
+  <section class="rights-note">
+    <h2>画像について</h2>
+    <p>着せ替えモード内の衣類画像は、自作・AI生成・権利確認済み素材のみを使用する方針です。第三者ECサイトの商品写真やブランドロゴの無断転載は行いません。</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner"><p>服と素材の目利き図鑑</p><span>Material & Craft Archive</span></div>
+</footer>
+
+<script src="dressup-data.js"></script>
+<script src="dressup.js"></script>
+</body>
+</html>
